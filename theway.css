@@ -1,0 +1,110 @@
+
+.basic {
+    background-position: center;
+    background-image: url(OIP.jpg);
+}
+.logo{
+    padding-left: 10px;
+    word-spacing: 100px ;
+}
+@media(max-width: 750px){
+    .logo{
+padding-right: 600px;
+        }
+    }
+header{
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.meniu {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    word-spacing: 10px;
+}
+@media(max-width: 750px){
+    .meniu{
+     display: none;
+    }
+}
+main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+footer{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: white;
+    /*grid-template-rows: 1fr;
+    grid-column-start: 1;
+    grid-column-end: 4;*/
+}
+@media (max-width: 750px){
+    footer{ min-height: 320px;
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           grid-template-rows: 1fr 1fr;
+           /*grid-template-rows: 1fr 1fr;
+    grid-column-start: 2;
+    grid-column-end: 2;*/
+ }
+  }
+
+i{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    background-color: #5bb02e;
+    border-style: none;
+    padding: 10px;
+}
+h1{
+    color: #5bb02e;
+}
+a{
+    color: white;
+}
+.get{
+    margin-top: 20px;
+    color: white;
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #5bb02e;
+    border-style: none;
+    width: 80px;
+    height: 20px;
+}
+.live{
+    margin-top: 20px;
+    color: black;
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-style: none;
+    width: 80px;
+    height: 20px;
+}
+.box{
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.burger-container{
+    display: none;
+}
+@media(max-width: 750px){
+    .burger-container{
+     display: block;
+     padding-left: 500px;
+    }
+}
